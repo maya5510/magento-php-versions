@@ -34,6 +34,7 @@ RUN     docker-php-ext-install \
             pdo_mysql \
             soap \
             xsl \
+            sockets \
             zip
 
 RUN     pecl channel-update pecl.php.net \
